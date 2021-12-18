@@ -66,6 +66,7 @@ public class codingAssignment_W3 {
 		System.out.println("Average of values in our array is = "+ (((double)accum)/arr.length));
 		System.out.print("Print array values for verification :");
 		for (int i : arr) System.out.print(i + " "); //sanity check for debugging
+		System.out.println("");
 	}
 
 	private static void stepOneHelper(int[] arr) {
